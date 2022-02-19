@@ -38,7 +38,7 @@ const filteredCrypto=currentCryptos.filter(crypto=>
   return (
     <div className="coin-app">
       <div className='coin-search'>
-        <h1 className='coin-text'>Search a Crypto</h1>
+        <h1 className='coin-text'>Search a CryptoCurrency</h1>
         <form>
           <input type="text" placeholder='Search Crypto' onChange={handleChange} className='coin-input'/>
         </form>
